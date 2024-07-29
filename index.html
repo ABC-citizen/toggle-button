@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -29,6 +29,132 @@
             </div>
         </div>
     </div>
-
+<script src="script.js"></script>
 </body>
-</html>
+</html>  
+
+ <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        :root {
+            --primary-color: black;
+            --secondary-color: white;
+        }
+
+        .dark-theme {
+            --primary-color: white;
+            --secondary-color: black;
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            background-color: var(--primary-color);
+            transition: background-color 0.3s;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .logo h1 {
+            color: var(--secondary-color);
+        }
+
+        .nav-items ul {
+            list-style-type: none;
+            gap: 20px;
+            display: flex;
+        }
+
+        .nav-items ul li a {
+            font-size: 23px;
+            text-decoration: none;
+            color: var(--secondary-color);
+        }
+
+        .sub-container {
+            width: 70%;
+            height: auto;
+            display: flex;
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        .sub-container p {
+            font-size: 20px;
+            color: var(--secondary-color);
+        }
+
+        .button button {
+            font-size: 23px;
+            padding: 10px;
+            width: 140px;
+            border-radius: 20px;
+            cursor: pointer;
+            background-color: azure;
+        }
+
+        .button button:hover {
+            background-color: rgb(180, 193, 193);
+            box-shadow: 0px 0px 10px var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <div class="logo"><h1>Logo</h1></div>
+            <div class="nav-items">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Hiring</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="sub-container">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi vero, necessitatibus ipsam reiciendis voluptas ducimus nam animi eaque voluptatem, in odit iure cupiditate non Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, eos, libero voluptatum eligendi dolorum mollitia numquam corrupti inventore odit velit iste! Corporis reprehenderit quod placeat magnam amet voluptatibus fugit loew
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, adipisci exercitationem necessitatibus laudantium recusandae possimus aperiam? Earum, ad fugiat similique sunt minus ipsam accusantium exercitationem aut reprehenderit aliquam ipsum accusamus.       
+                </p>
+            </div>
+            <div class="toggle">
+                <div class="button">
+                    <button id="btn">Dark Mode</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            var button = document.getElementById("btn");
+            button.onclick = function() {
+                document.body.classList.toggle('dark-theme');
+            }
+        });
+        document.getElementById('btn',(e)=>{
+            var btn=document.getElementById("btn");
+            if(btn.target.innerHTML=='Dark Mode'){
+                btn.target.innerHTML='Light Mode';
+            }else{
+                btn.target.innerHTML='Dark Mode';
+            }
+        })
+    </script>
+</body>
+</html>  -->
